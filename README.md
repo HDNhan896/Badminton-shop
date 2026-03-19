@@ -166,7 +166,11 @@ git clone <repository-link>
 ```
 
 ### 2️⃣ Cài đặt thư viện
-#### cd vào backend
+cd vào backend
+```
+cd backend
+```
+sau đó
 ```id="u04lv1"
 npm install
 ```
