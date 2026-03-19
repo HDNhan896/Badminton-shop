@@ -105,12 +105,19 @@ badminton-shop/
 frontend/
 │
 ├── about.html
-├── cart.html
-├── footer.html
-├── header.html
-├── home.html
+├── account.html
+├── checkout.html
+├── forgot-password.html
 ├── index.html
-├── product.html
+├── signup.html
+│
+├── pages/
+│   ├── cart.html
+│   └── product.html
+│
+├── components/
+│   ├── footer.html
+│   └── header.html
 │
 ├── css/
 │   └── style.css
@@ -159,7 +166,7 @@ git clone <repository-link>
 ```
 
 ### 2️⃣ Cài đặt thư viện
-
+#### cd vào backend
 ```id="u04lv1"
 npm install
 ```
