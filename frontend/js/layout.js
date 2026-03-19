@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", () => {
     const headerPlaceholder = document.getElementById('header');
         fetch('header.html')
            .then(response => response.text())
@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
             })
 });
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", () => {
     const footerPlaceholder = document.getElementById('footer');
         fetch('footer.html')
            .then(response => response.text())
