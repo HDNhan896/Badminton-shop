@@ -104,17 +104,23 @@ badminton-shop/
 
 frontend/
 │
+├── about.html
+├── cart.html
+├── footer.html
+├── header.html
+├── home.html
 ├── index.html
 ├── product.html
-├── cart.html
 │
 ├── css/
 │   └── style.css
 │
 ├── js/
 │   ├── api.js
-│   ├── product.js
-│   └── cart.js
+│   ├── card.js
+│   ├── layout.js
+│   ├── main.js
+│   └── product.js
 │
 └── assets/
     └── images/
