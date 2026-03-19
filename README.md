@@ -171,13 +171,13 @@ cd vào backend
 cd backend
 ```
 sau đó
-```id="u04lv1"
+```
 npm install
 ```
 
 ### 3️⃣ Chạy server
 
-```id="o9w7rt"
+```
 node backend/server.js
 ```
 
@@ -185,7 +185,7 @@ node backend/server.js
 
 Truy cập trình duyệt tại địa chỉ:
 
-```id="u71i1p"
+```
 http://localhost:3000
 ```
 
