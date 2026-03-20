@@ -104,17 +104,30 @@ badminton-shop/
 
 frontend/
 │
+├── about.html
+├── account.html
+├── checkout.html
+├── forgot-password.html
 ├── index.html
-├── product.html
-├── cart.html
+├── signup.html
+│
+├── pages/
+│   ├── cart.html
+│   └── product.html
+│
+├── components/
+│   ├── footer.html
+│   └── header.html
 │
 ├── css/
 │   └── style.css
 │
 ├── js/
 │   ├── api.js
-│   ├── product.js
-│   └── cart.js
+│   ├── card.js
+│   ├── layout.js
+│   ├── main.js
+│   └── product.js
 │
 └── assets/
     └── images/
@@ -153,14 +166,18 @@ git clone <repository-link>
 ```
 
 ### 2️⃣ Cài đặt thư viện
-
-```id="u04lv1"
+cd vào backend
+```
+cd backend
+```
+sau đó
+```
 npm install
 ```
 
 ### 3️⃣ Chạy server
 
-```id="o9w7rt"
+```
 node backend/server.js
 ```
 
@@ -168,7 +185,7 @@ node backend/server.js
 
 Truy cập trình duyệt tại địa chỉ:
 
-```id="u71i1p"
+```
 http://localhost:3000
 ```
 
