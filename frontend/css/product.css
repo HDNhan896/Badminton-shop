@@ -12,6 +12,15 @@
     padding: 0 5px;
     color: red;
 }
-.product-overview  img{
+.product-overview  img:hover{
     border: 1px solid red;
+}
+.product-overview  img{
+    border: 1px solid wheat;
+}
+.privilege{
+    border: 1px dashed red;
+}
+legend{
+    color: red;
 }
